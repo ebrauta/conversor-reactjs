@@ -1,0 +1,81 @@
+{
+    "temperatures": [
+        {
+            "name": "Celsius",
+            "unit": "°C",
+            "value": 0
+        },
+        {
+            "name": "Kelvin",
+            "unit": "K",
+            "value": 1
+        },
+        {
+            "name": "Fahreinheit",
+            "unit": "°F",
+            "value": 2
+        },  
+        {
+            "name": "Rankine",
+            "unit": "°Ra",
+            "value": 3
+        }
+    ],
+    "lenghts": [
+        {
+          "name": "Quilômetro",
+          "unit": "km",
+          "value": 0
+        },
+        {
+          "name": "Metro",
+          "unit": "m",
+          "value": 1
+        },
+        {
+          "name": "Centímetro",
+          "unit": "cm",
+          "value": 2
+        },
+        {
+          "name": "Milímetro",
+          "unit": "mm",
+          "value": 3
+        },
+        {
+          "name": "Micrômetro",
+          "unit": "µm",
+          "value": 4
+        },
+        {
+          "name": "Nanômetro",
+          "unit": "nm",
+          "value": 5
+        },
+        {
+          "name": "Milha",
+          "unit": "mi",
+          "value": 6
+        },
+        {
+          "name": "Jarda",
+          "unit": "yd",
+          "value": 7
+        },
+        {
+          "name": "Pé",
+          "unit": "ft",
+          "value": 8
+        },
+        {
+          "name": "Polegada",
+          "unit": "pol",
+          "value": 9
+        },
+        {
+          "name": "Milha náutica",
+          "unit": "m.n",
+          "value": 10
+        } 
+    ]
+}
