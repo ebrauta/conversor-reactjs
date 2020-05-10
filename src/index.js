@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
 const rootElement = document.getElementById('root')
 
-const Index = () => {
-    return <h1>Index</h1>
-}
-
 ReactDOM.render(
-    <Index />,
+    <App />,
     rootElement
 );
 
