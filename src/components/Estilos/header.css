@@ -1,0 +1,57 @@
+/* menu -> header */
+.menu{
+    position: absolute;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    background: linear-gradient(rgb(100,100,100), rgb(255,255,255));
+    width: 100%;
+}
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+}
+/* links -> header */
+.lnkmenu{
+    margin: 10px 10px 10px 25px;
+    width: 68px;
+    height: 68px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.lnkmenu span{
+    color: rgb(0,0,0);
+    font-weight: 600;
+    padding-top: 5px;
+    display: none;
+}
+/* btn -> header */
+#btnhome, #btntemp, #btncomp{
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+#btnhome:hover, #btntemp:hover, #btncomp:hover{
+    width: 48px;
+    height: 48px;
+}
+#btnhome {
+    background: url('/images/home.png') no-repeat center center;
+    background-size: cover;
+}
+#btntemp {
+    background: url('/images/termometro.png') no-repeat center center;
+    background-size: cover;
+}
+#btncomp {
+    background: url('/images/comprimento.png') no-repeat center center;
+    background-size: cover;
+}

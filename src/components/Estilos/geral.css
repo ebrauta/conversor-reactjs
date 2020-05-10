@@ -1,0 +1,114 @@
+/* 
+* container -> header e footer
+* conteudo -> todos os calculators
+ */
+.container{
+    position: absolute;
+    left: 0;
+    top: 72px;
+    right: 0;
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto 125px;
+}
+.conteudo {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.conteudo fieldset{
+    margin: 0 auto;
+    height: 350px;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.conteudo fieldset .fieldset-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.conteudo legend{
+    margin: 0 auto;
+    padding: 5px 20px;
+    font-size: 25px;
+    text-decoration: underline blue;
+    font-weight: 700;
+}
+.conteudo .entrada,.conteudo .saida{
+    height: 240px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.conteudo .entrada p,.conteudo .saida p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+* input, select, #tempfinal e #compfinal-> todos os calculators
+*/
+input[type="number"], input[type="text"], select{
+    border-radius: 5px;
+    font-size: 1.333em;
+    padding: 10px 15px;
+    width: 350px;
+}
+input[type="number"], input[type="text"]{
+    border: 1px solid gray;
+    width: 320px;
+}
+select{
+    width: 350px;
+}
+select option{
+    font-size: 18px;
+    padding: 25px 0;
+}
+select option:nth-child(2n){
+    background: rgba(125,125,125,0.8);
+}
+select option:nth-child(2n+1){
+    background: rgba(125,125,125,0.5);
+}
+#tempfinal, #compfinal{
+    color: green;
+    background-color: white;
+}
+/*
+* buttonGroup -> todos os calculators
+*/
+.buttonGroup{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 50px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+.buttonGroup button{
+    font-weight: 600;
+    color: #dadada;
+    font-size: 20px;
+    background: rgb(75,75,200);
+    width: 250px;
+    height: 52px;
+    border: 1px solid rgb(25, 25, 83);
+    border-radius: 20px;
+    box-shadow: 2px 2px darkgrey;
+}                                  
+.buttonGroup button:hover{
+    background: rgb(20,20,100);
+    color: #fff;
+    font-size: 21px;
+    width: 251px;
+    height: 53px;
+}
+
+

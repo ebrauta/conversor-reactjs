@@ -1,0 +1,66 @@
+@import '/fonts/PermanentMarker-Regular.ttf';
+
+/* rodape -> footer */
+.rodape{
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient( rgb(255,255,255),rgba(100,100,100));
+    width: 100%;
+}
+.rodape .brand-logo{
+    margin-left: 25px;
+    padding: 32px;
+    background: url('/logo192.png') center center no-repeat;
+    background-size: contain;
+    display: inline;
+}
+.rodape .brand-name{
+    padding: 20px 10px;
+    font-family: 'Permanent Marker', cursive; 
+}
+.rodape .copyright{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.rodape .foot-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rodape .foot-list li{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+.rodape .foot-list li a {
+    text-decoration: none;
+}
+.rodape .foot-list li a button{
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+/* lnks -> footer */
+#lnkgithub{
+    background: url('/images/social/github.png') no-repeat center center;
+    background-size: 32px 32px;
+}
+#lnkfacebook{
+    background: url('/images/social/facebook.png') no-repeat center center;
+    background-size: 32px 32px;
+}
+#lnkninstagram{
+    background: url('/images/social/instagram.png') no-repeat center center;
+    background-size: 32px 32px;
+}
+#lnktwitter{
+    background: url('/images/social/twitter.png') no-repeat center center;
+    background-size: 32px 32px;
+}

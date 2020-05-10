@@ -1,0 +1,5 @@
+#compcontent{
+   background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.5)), url('/images/bgcomp.jpg') no-repeat center center;
+   background-size: cover;
+   color: black;
+}
